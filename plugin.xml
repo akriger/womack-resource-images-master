@@ -38,11 +38,11 @@
          <resource-file src="res/android/xlarge/forward_pressed.png" target="res/drawable-xhdpi/forward_pressed.png" />
      </platform>
           <platform name="ios">
-         <resource-file src="res/ios/back.png" />
-         <resource-file src="res/ios/back_pressed.png" />
-         <resource-file src="res/ios/forward.png" />
-         <resource-file src="res/ios/forward_pressed.png" />
-         <resource-file src="res/ios/close.png" />
-         <resource-file src="res/ios/close_pressed.png" />
+         <resource-file src="res/ios/back@3x.png" />
+         <resource-file src="res/ios/back_pressed@3x.png" />
+         <resource-file src="res/ios/forward@3x.png" />
+         <resource-file src="res/ios/forward_pressed@3x.png" />
+         <resource-file src="res/ios/close@3x.png" />
+         <resource-file src="res/ios/close_pressed@3x.png" />
      </platform>
  </plugin>
