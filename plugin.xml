@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+         id="womack.native.images" version="1.0.0">
+     <name>Womack Images Plugin</name>
+     <description>
+        Copy Womack resources to res folder so they can be used as native resource.</description>
+     <license>Apache 2.0</license>
+     <keywords></keywords>
+
+     <!--
+     Android resources filename must conform [a-z0-9-_]
+     iOS resources does not care about target, but can't rename files.
+      -->
+     <platform name="android">
+         <resource-file src="res/android/small/back.png" target="res/drawable-ldpi/back.png" />
+         <resource-file src="res/android/small/back_pressed.png" target="res/drawable-ldpi/back_pressed.png" />
+         <resource-file src="res/android/small/close.png" target="res/drawable-ldpi/close.png" />
+         <resource-file src="res/android/small/close_pressed.png" target="res/drawable-ldpi/close_pressed.png" />
+         <resource-file src="res/android/small/forward.png" target="res/drawable-ldpi/forward.png" />
+         <resource-file src="res/android/small/forward_pressed.png" target="res/drawable-ldpi/forward_pressed.png" />
+         <resource-file src="res/android/medium/back.png" target="res/drawable-mdpi/back.png" />
+         <resource-file src="res/android/medium/back_pressed.png" target="res/drawable-mdpi/back_pressed.png" />
+         <resource-file src="res/android/medium/close.png" target="res/drawable-mdpi/close.png" />
+         <resource-file src="res/android/medium/close_pressed.png" target="res/drawable-mdpi/close_pressed.png" />
+         <resource-file src="res/android/medium/forward.png" target="res/drawable-mdpi/forward.png" />
+         <resource-file src="res/android/medium/forward_pressed.png" target="res/drawable-mdpi/forward_pressed.png" />
+         <resource-file src="res/android/large/back.png" target="res/drawable-hdpi/back.png" />
+         <resource-file src="res/android/large/back_pressed.png" target="res/drawable-hdpi/back_pressed.png" />
+         <resource-file src="res/android/large/close.png" target="res/drawable-hdpi/close.png" />
+         <resource-file src="res/android/large/close_pressed.png" target="res/drawable-hdpi/close_pressed.png" />
+         <resource-file src="res/android/large/forward.png" target="res/drawable-hdpi/forward.png" />
+         <resource-file src="res/android/large/forward_pressed.png" target="res/drawable-hdpi/forward_pressed.png" />
+         <resource-file src="res/android/xlarge/back.png" target="res/drawable-xhdpi/back.png" />
+         <resource-file src="res/android/xlarge/back_pressed.png" target="res/drawable-xhdpi/back_pressed.png" />
+         <resource-file src="res/android/xlarge/close.png" target="res/drawable-xhdpi/close.png" />
+         <resource-file src="res/android/xlarge/close_pressed.png" target="res/drawable-xhdpi/close_pressed.png" />
+         <resource-file src="res/android/xlarge/forward.png" target="res/drawable-xhdpi/forward.png" />
+         <resource-file src="res/android/xlarge/forward_pressed.png" target="res/drawable-xhdpi/forward_pressed.png" />
+     </platform>
+ </plugin>
